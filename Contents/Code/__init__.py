@@ -1,7 +1,7 @@
 ICON = 'icon-default.png'
 ART = 'art-default.jpg'
 SHOW_LIST = 'http://www.nick.com/apps/api/v2/editorial-content-categories/stars?apiKey=gve7v8ti'
-SHOW_VIDEO = 'http://www.nick.com/apps/api/v2/content-collection?apiKey=gve7v8ti&orderBy=MinDpStartDateDesc&rows=36&series=%s&start=0&types=video%%2Cepisode'
+SHOW_VIDEO = 'http://www.nick.com/apps/api/v2/content-collection?apiKey=gve7v8ti&rows=40&series=%s&start=0&types=episodes'
 
 ####################################################################################################
 def Start():
