@@ -1,5 +1,6 @@
 ICON = 'icon-default.png'
 ART = 'art-default.jpg'
+#API Ref: https://github.com/moneymaker365/plugin.video.ustvvod/issues/25
 SHOW_LIST = 'http://www.nick.com/apps/api/v2/editorial-content-categories/stars?apiKey=gve7v8ti'
 SHOW_VIDEO = 'http://www.nick.com/apps/api/v2/content-collection?apiKey=gve7v8ti&rows=40&series=%s&start=0&types=episodes'
 
