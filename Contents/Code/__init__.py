@@ -7,7 +7,7 @@ SHOW_VIDEO = 'http://www.nick.com/apps/api/v2/content-collection?apiKey=gve7v8ti
 ####################################################################################################
 def Start():
 
-	ObjectContainer.title1 = 'nickelodeon'
+	ObjectContainer.title1 = 'Nickelodeon'
 	DirectoryObject.thumb = R(ICON)
 	DirectoryObject.art = R(ART)
 	HTTP.CacheTime = CACHE_1HOUR
@@ -15,7 +15,7 @@ def Start():
 	HTTP.Headers['Cookie'] = 'Visited=Yes'
 
 ####################################################################################################
-@handler('/video/nickelodeon', 'nickelodeon')
+@handler('/video/nickelodeon', 'Nickelodeon')
 def MainMenu():
 
 	oc = ObjectContainer()
