@@ -1,4 +1,4 @@
-ICON = 'icon-default.png'
+ICON = 'icon-default.jpg'
 ART = 'art-default.jpg'
 #API Ref: https://github.com/moneymaker365/plugin.video.ustvvod/issues/25
 SHOW_LIST = 'http://www.nick.com/apps/api/v2/editorial-content-categories/stars?apiKey=gve7v8ti'
